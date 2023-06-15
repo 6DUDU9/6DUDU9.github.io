@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- IMPORTACION DEL CSS -->
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <!-- IMPORTACION DE FUENTE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Romanesco&display=swap" rel="stylesheet">
+    <!-- TITLE -->
+    <title>SPA - Todos</title>
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <!-- HEAD I -->
+        <div id="headI">
+            <!-- Lista Menu -->
+            <nav id="listaMenu">
+                <ul>
+                    <li><a href="#" class="add-button">Promociones</a></li>
+                    <li><a href="#" class="add-button">Fotos</a></li>
+                    <li><a href="#" class="add-button">Servicios</a></li>
+                    <li><a href="#" class="add-button">Mapa</a></li>
+                    <li><a href="#" class="add-button">Contacto</a></li>
+                </ul>
+            </nav>
+            <!-- Parte Usuario -->
+            <div id="USER">
+                <div id="imgUser">
+                    <img src="./img/user.png" alt="Imagen User">
+                </div>                
+                <div>
+                    <a href="#" class="miniatura">Mi cuenta</a>
+                </div>
+                <div style= "margin-left:50px; margin-right:10px">
+                    <p class="miniatura">ES</p>
+                </div>
+                <div style= "margin-right:10px">
+                    <img src="./img/flag.png" alt="Imagen Flag">                    
+                </div>
+                <div style= "margin-right:10px ; margin-bottom: 15px;">
+                    <a href="#" class="add-button"><img src="./img/arrow.png" alt="Imagen Arrow"></a>
+                </div>
+            </div>
+        </div>
+        <!-- HEAD II -->
+        <div id="HeadII">
+            <img src="./img/main.png" alt="Imagen Main">
+            <div id="title">
+                <h1 style="font-family: Romanesco; font-weight: normal; font-size: 96px;">SPA - Todos</h1>                
+            </div>
+            <div id="subTitle">
+                <h2>
+                    Regálate un momento de paz y consiente a tu piel en el mejor lugar
+                </h2>
+            </div>
+        </div>
+        <!-- Footer del HEAD -->
+        <div id="footerHead">
+            <div style= margin-Left:15%;margin-Right:15px>
+                <p class="menu">reserva tu cita</p>
+            </div>
+            <input type="text" id="caja1">
+            <div style= margin-Left:2.5%;margin-Right:15px>
+                <p class="menu"> código promocional</p>
+            </div>
+            <input type="text" id="caja2" placeholder="    CODIGO">
+        </div>
+    </header>    
+    <!-- Body I -->
+    <div id="selectionI">
+        
+        <!-- Option I -->
+        <div class="option" style="margin-left: 35px; margin-right: 134px;">
+            <!-- TITULO -->
+            <div class="titulo1"> 
+                <h2 style="text-align: center;border-radius: 5px; color: #ffffff;">Masajes de pies</h2>
+            </div>
+            <!-- IMG -->
+            <div class="imgService">
+                <img src="./img/pies.png"  alt="Imagen Feet">
+            </div>
+            <div style="margin-top: 10px;margin-bottom: 10px;">
+                <p class="normal">Esta es una descripcion de la opción en cuestión .....</p>
+            </div>            
+            <div class="footerService">
+                <h1>$65</h1> <button class="boton">RESERVAR</button>
+            </div>
+        </div>
+        <!-- Option II -->
+        <div class="option" style="margin-right: 134px;">
+            <!-- TITULO -->
+            <div class="titulo1"> 
+                <h2 style="text-align: center;border-radius: 5px; color: #ffffff; ">Masaje relajante</h2>
+            </div>
+            <!-- IMG -->
+            <div class="imgService">
+                <img src="./img/relajante.png"  alt="Imagen Feet">
+            </div>
+            <div style="margin-top: 10px;margin-bottom: 10px;">
+                <p class="normal">Esta es una descripcion de la opción en cuestión .....</p>
+            </div>
+            <div class="footerService">
+                <h1>$60</h1> <button class="boton">RESERVAR</button>
+            </div>
+        </div>
+        <!-- Option III -->
+        <div class="option" style="margin-right: 35px;">
+            <!-- TITULO -->
+            <div class="titulo1"> 
+                <h2 style="text-align: center; border-radius: 5px; color: #ffffff;">Masaje con bambú</h2>
+            </div>
+            <!-- IMG -->
+            <div class="imgService">
+                <img src="./img/bambu.png"  alt="Imagen Feet">
+            </div>
+            <div style="margin-top: 10px;margin-bottom: 10px;">
+                <p class="normal">Esta es una descripcion de la opción en cuestión .....</p>
+            </div>
+            <div class="footerService">
+                <h1>$58</h1> <button class="boton">RESERVAR</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Body II -->
+    <div id="selectionII">              
+        <div id="titleSUB">
+            <h1>Haste socio y prueba nuestros beneficios</h1>
+        </div>
+        <div id="contentSUB">            
+            <!-- SUB I -->
+            <div class="SUB">                
+                <div class="bordeCirculo" style="border: 10px solid #384001">
+                    <div class="imgSUB">
+                        <img src="./img/gold.png"  alt="Imagen SUB-GOLD">
+                    </div>
+                </div>
+                <h1 style="text-align: center; margin-top: 10px;">GOLD</h1>
+                <div class="btnCondition">
+                    <button class="boton" style="width: 100%;height: 100%;">VER CONDICIONES</button>
+                </div>
+                <div style="display: flex; justify-content: center;  align-items: center;">
+                    <ul class="listaBeneficio">
+                        <li>Gimnasio</li>
+                        <li>Piscina</li>
+                        <li>Todos los tratamientos</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- SUB II -->
+            <div class="SUB">                
+                <div class="bordeCirculo" style="border: 10px solid #384001">
+                    <div class="imgSUB">
+                        <img src="./img/premium.png"  alt="Imagen SUB-GOLD">
+                    </div>
+                </div>
+                <h1 style="text-align: center; margin-top: 10px;">PREMIUM</h1>
+                <div class="btnCondition">
+                    <button class="boton" style="width: 100%;height: 100%;">VER CONDICIONES</button>
+                </div>
+                <div style="display: flex; justify-content: center;  align-items: center;">
+                    <ul class="listaBeneficio">
+                        <li>Gimnasio</li>
+                        <li>Todos los tratamientos</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- SUB III -->
+            <div class="SUB">                
+                <div class="bordeCirculo" style="border: 10px solid #384001">
+                    <div class="imgSUB">
+                        <img src="./img/plate.png"  alt="Imagen SUB-GOLD">
+                    </div>
+                </div>
+                <h1 style="text-align: center; margin-top: 10px;">PLATE</h1>
+                <div class="btnCondition">
+                    <button class="boton" style="width: 100%;height: 100%;">VER CONDICIONES</button>
+                </div>
+                <div style="display: flex; justify-content: center;  align-items: center;">
+                    <ul class="listaBeneficio">
+                        <li>Tratamientos faciales</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div id="footI">
+            <!-- Lista Menu -->
+            <nav id="listaMenuFoot">
+                <ul>
+                    <li style="margin-right: 5%;"><a href="#" class="add-button2">POLITICAS DE COOKIES</a></li>
+                    <li style="margin-right: 5%;"><a href="#" class="add-button2">AVISO LEGAL</a></li>
+                    <li style="margin-right: 5%;"><a href="#" class="add-button2">PROTECCIÓN DE DATOS</a></li>
+                    <li style="margin-right: 5%;"><a href="#" class="add-button2">MAPA DEL SITIO</a></li>
+                </ul>
+            </nav>
+
+            <!-- Parte Redes Sociales -->
+            <div id="SOCIAL">
+                <div style= "margin-right:20px">
+                    <p>SÍGUENOS EN</p>                    
+                </div>
+                <div style= "margin-right:20px">
+                    <img src="./img/rs_facebook.png" alt="Imagen Flag">                    
+                </div> 
+                <div style= "margin-right:20px">
+                    <img src="./img/rs_twiter.png" alt="Imagen Flag">                    
+                </div>
+                <div style= "margin-right:20px">
+                    <img src="./img/rs_youtube.png" alt="Imagen Flag">                    
+                </div>            
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
